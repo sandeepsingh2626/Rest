@@ -27,7 +27,7 @@ public class Test1_BasicFeatures
 	}
 	
 	
-    @Test
+   // @Test
     public void TestCase3()
 	{
 		System.out.println("Verify that result.name is equal to india : - ");
@@ -41,7 +41,7 @@ public class Test1_BasicFeatures
 		given().when().get("http://services.groupkt.com/country/get/iso2code/IN").then().body("RestResponse.result.name", equalTo("India"));
 	}
 	
-	@Test
+	//@Test
 	public void TestCase5()
 	{
 		System.out.println("Verify that result.alpha2_code is equal to india : - ");

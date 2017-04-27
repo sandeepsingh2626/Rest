@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2480" started-at="2017-04-13T08:55:21Z" finished-at="2017-04-13T08:55:24Z">
+  <suite name="Default suite" duration-ms="5357" started-at="2017-04-27T05:29:33Z" finished-at="2017-04-27T05:29:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2480" started-at="2017-04-13T08:55:21Z" finished-at="2017-04-13T08:55:24Z">
+    <test name="Default test" duration-ms="5357" started-at="2017-04-27T05:29:33Z" finished-at="2017-04-27T05:29:38Z">
       <class name="com.Rest.Test1_BasicFeatures">
-        <test-method status="PASS" signature="TestCase6()[pri:0, instance:com.Rest.Test1_BasicFeatures@4b9e13df]" name="TestCase6" duration-ms="2463" started-at="2017-04-13T14:25:21Z" finished-at="2017-04-13T14:25:24Z">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.Rest.Test1_BasicFeatures@4b9e13df]" name="TestCase1" duration-ms="3203" started-at="2017-04-27T10:59:33Z" finished-at="2017-04-27T10:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.Rest.Test1_BasicFeatures@4b9e13df]" name="TestCase2" duration-ms="1014" started-at="2017-04-27T10:59:36Z" finished-at="2017-04-27T10:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:com.Rest.Test1_BasicFeatures@4b9e13df]" name="TestCase4" duration-ms="531" started-at="2017-04-27T10:59:37Z" finished-at="2017-04-27T10:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method status="PASS" signature="TestCase6()[pri:0, instance:com.Rest.Test1_BasicFeatures@4b9e13df]" name="TestCase6" duration-ms="562" started-at="2017-04-27T10:59:38Z" finished-at="2017-04-27T10:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase6 -->

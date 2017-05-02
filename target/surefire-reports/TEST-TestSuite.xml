@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="5.15" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="TestSuite" time="5.043" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Test1_Maven"/>
@@ -10,12 +10,14 @@
     <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
     <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="d87c762bf08a3a00"/>
+    <property name="POM_ARTIFACTID" value="Rest"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Rest"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Windows\TEMP"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
@@ -25,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Test1_Maven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Test1_Maven/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Test1_Maven/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_121"/>
@@ -38,7 +40,7 @@
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
     <property name="UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -51,7 +53,8 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Test1_Maven/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Test1_Maven/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.121-b13"/>
@@ -65,12 +68,14 @@
     <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="RIPL-LT-PKULKAR"/>
     <property name="user.script" value=""/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="POM_GROUPID" value="com"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-Test1_Maven-1"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Test1_Maven-4"/>
     <property name="JENKINS_SERVER_COOKIE" value="d87c762bf08a3a00"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -83,7 +88,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\Auto Software\Build Tool\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.8.1.jar;D:\Auto Software\Build Tool\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;D:\Auto Software\Build Tool\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Auto Software\Build Tool\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.4.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 51512"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Auto Software\Build Tool\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.4.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 51173"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\SYSTEM\MSMAPI\1033;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Auto Software\Build Tool\apache-maven-3.3.9\bin;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -111,11 +116,13 @@
 "/>
     <property name="MAVEN_HOME" value="D:\Auto Software\Build Tool\apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="36ad966498875c72fa4f5691cec682209061b585"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar"/>
@@ -124,11 +131,13 @@
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/sandeepsingh2626/Rest.git"/>
   </properties>
-  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase1" time="2.788"/>
-  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase2" time="1.091"/>
-  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase4" time="0.58"/>
-  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase6" time="0.58"/>
+  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase1" time="2.494"/>
+  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase2" time="1.182"/>
+  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase4" time="0.614"/>
+  <testcase classname="com.Rest.Test1_BasicFeatures" name="TestCase6" time="0.685"/>
   <testcase classname="com.Rest.Test2" name="TestCase1" time="0"/>
-  <testcase classname="com.Rest.AppTest" name="testApp on testApp(com.Rest.AppTest)" time="0.111"/>
+  <testcase classname="com.Rest.Test2" name="TestCase2" time="0"/>
+  <testcase classname="com.Rest.AppTest" name="testApp on testApp(com.Rest.AppTest)" time="0.068"/>
 </testsuite>

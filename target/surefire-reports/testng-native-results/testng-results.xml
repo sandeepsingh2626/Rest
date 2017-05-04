@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="4821" started-at="2017-05-04T09:11:36Z" finished-at="2017-05-04T09:11:41Z">
+  <suite name="Command line suite" duration-ms="5565" started-at="2017-05-04T09:26:21Z" finished-at="2017-05-04T09:26:27Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="4821" started-at="2017-05-04T09:11:36Z" finished-at="2017-05-04T09:11:41Z">
+    <test name="Command line test" duration-ms="5565" started-at="2017-05-04T09:26:21Z" finished-at="2017-05-04T09:26:27Z">
       <class name="com.Rest.Test1_BasicFeatures">
-        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.Rest.Test1_BasicFeatures@4411d970]" name="TestCase1" duration-ms="2383" started-at="2017-05-04T14:41:36Z" finished-at="2017-05-04T14:41:39Z">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.Rest.Test1_BasicFeatures@60f82f98]" name="TestCase1" duration-ms="2550" started-at="2017-05-04T14:56:21Z" finished-at="2017-05-04T14:56:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase1 -->
-        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.Rest.Test1_BasicFeatures@4411d970]" name="TestCase2" duration-ms="1190" started-at="2017-05-04T14:41:39Z" finished-at="2017-05-04T14:41:40Z">
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.Rest.Test1_BasicFeatures@60f82f98]" name="TestCase2" duration-ms="1932" started-at="2017-05-04T14:56:24Z" finished-at="2017-05-04T14:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase2 -->
-        <test-method status="PASS" signature="TestCase4()[pri:0, instance:com.Rest.Test1_BasicFeatures@4411d970]" name="TestCase4" duration-ms="513" started-at="2017-05-04T14:41:40Z" finished-at="2017-05-04T14:41:41Z">
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:com.Rest.Test1_BasicFeatures@60f82f98]" name="TestCase4" duration-ms="521" started-at="2017-05-04T14:56:25Z" finished-at="2017-05-04T14:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase4 -->
-        <test-method status="PASS" signature="TestCase6()[pri:0, instance:com.Rest.Test1_BasicFeatures@4411d970]" name="TestCase6" duration-ms="713" started-at="2017-05-04T14:41:41Z" finished-at="2017-05-04T14:41:41Z">
+        <test-method status="PASS" signature="TestCase6()[pri:0, instance:com.Rest.Test1_BasicFeatures@60f82f98]" name="TestCase6" duration-ms="533" started-at="2017-05-04T14:56:26Z" finished-at="2017-05-04T14:56:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase6 -->
       </class> <!-- com.Rest.Test1_BasicFeatures -->
       <class name="com.Rest.Test2">
-        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.Rest.Test2@35f983a6]" name="TestCase1" duration-ms="0" started-at="2017-05-04T14:41:41Z" finished-at="2017-05-04T14:41:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase1 -->
-        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.Rest.Test2@35f983a6]" name="TestCase2" duration-ms="0" started-at="2017-05-04T14:41:41Z" finished-at="2017-05-04T14:41:41Z">
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.Rest.Test2@edf4efb]" name="TestCase2" duration-ms="0" started-at="2017-05-04T14:56:27Z" finished-at="2017-05-04T14:56:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase2 -->
-        <test-method status="PASS" signature="TestCase3()[pri:0, instance:com.Rest.Test2@35f983a6]" name="TestCase3" duration-ms="0" started-at="2017-05-04T14:41:41Z" finished-at="2017-05-04T14:41:41Z">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.Rest.Test2@edf4efb]" name="TestCase1" duration-ms="0" started-at="2017-05-04T14:56:27Z" finished-at="2017-05-04T14:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:com.Rest.Test2@edf4efb]" name="TestCase4" duration-ms="0" started-at="2017-05-04T14:56:27Z" finished-at="2017-05-04T14:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:com.Rest.Test2@edf4efb]" name="TestCase3" duration-ms="0" started-at="2017-05-04T14:56:27Z" finished-at="2017-05-04T14:56:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase3 -->

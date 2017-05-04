@@ -34,5 +34,12 @@ public class Test2 {
 		
 	}
 
+	
+	@Test
+	public void TestCase5()
+	{
+		System.out.println("Verify the log details of the web services : - ");
+		
+	}
 
 }

@@ -1,5 +1,0 @@
-projectKey=com:Rest
-serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/com:Rest
-ceTaskId=AVvSyGZwT_Q3rAvWNkiK
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVvSyGZwT_Q3rAvWNkiK
